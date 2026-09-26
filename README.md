@@ -42,6 +42,7 @@ Por isso, o principal problema é a dificuldade de controlar os produtos e seus 
 ## Objetivos
 
 **OBJETIVO GERAL**
+
 Criar um sistema para facilitar o controle de estoque, principalmente de produtos que possuem lote e data de validade. A ideia é ajudar no acompanhamento dos produtos, das movimentações e necessidades de compra, procurando diminuir desperdícios e melhorar o uso dos materiais.
 
 **OBJETIVOS ESPECÍFICOS**
