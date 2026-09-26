@@ -358,19 +358,13 @@ As oito telas acima estão documentadas no projeto de interfaces desenvolvido pe
 
 ### User Flow
 
-**✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
+O fluxo de usuário começa pela tela de **Login**. Depois de fazer o login, o usuário vai para a **Tela Principal**, onde consegue acessar as outras partes do sistema. 
 
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
+Depois de entrar em qualquer um dos módulos, o usuário pode voltar para a **Tela Principal** e acessar outra opção. Quando clicar em **Sair**, a sessão é encerrada e o usuário volta para a tela de **Login**.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Userflow](images/userflow.png)
+
+O fluxo de navegação entre as telas foi definido no projeto de interfaces desenvolvido pelo grupo.
 
 ### Protótipo Interativo
 
