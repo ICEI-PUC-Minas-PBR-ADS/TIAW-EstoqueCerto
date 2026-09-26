@@ -8,8 +8,8 @@ Informações básicas do projeto.
 
   * [César Ribeiro](https://github.com/cesarrdm2004)
   * [Bernardo Almeida](https://github.com/Bxrnardo7)
-  * [Ramon Ferreira](https://github.com/cicrano)
-  * [João Vitor](https://github.com/cicrano)
+  * [Ramon Ferreira](https://github.com/RamonFerreira26)
+  * [João Vitor](https://github.com/devjoaovitorrocha)
   * [Lucas Antônio](https://github.com/LC-sam0)
   * [Jéssica Naiara](https://github.com/Jesc4)
 
