@@ -304,26 +304,57 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 ### Wireframes
 
-Estes são os protótipos de telas do sistema.
+Os wireframes foram desenvolvidos para representar a estrutura visual e a navegação do sistema antes da implementação.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+**Tela de Login**
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+Permite que o usuário informe seu e-mail e senha para acessar o sistema por meio do botão **Entrar.**
 
-Descrição para a tela XPTO
+![Wireframe de Login](images/wireframe-login.png)
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+**Tela Principal / Visão Geral**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+Apresenta um resumo dos lotes cadastrados e fornece acesso aos principais módulos do sistema. O botão **Sair** retorna o usuário para a tela de **Login**.
+
+![Wireframe Tela Principal](images/wireframe-telaprincipal.png)
+
+**Gerenciamento de Lotes**
+
+Permite visualizar os lotes cadastrados e realizar operações de cadastro, atualização, exclusão e limpeza dos dados do formulário.
+
+![Wireframe Tela Lotes](images/wireframe-lotes.png)
+
+**Produtos**
+
+Permite visualizar, cadastrar e atualizar produtos.
+
+![Wireframe Produtos](images/wireframe-produtos.png)
+
+**Fornecedores**
+
+Permite visualizar, cadastrar e atualizar fornecedores.
+
+![Wireframe Fornecedores](images/wireframe-fornecedores.png)
+
+**Movimentação de Estoque**
+
+Permite visualizar o histórico de movimentações e registrar entradas ou saídas de produtos.
+
+![Wireframe Movimentações](images/wireframe-movimentacoes.png)
+
+**Pedidos de Compra**
+
+Apresenta os pedidos realizados e permite criar, alterar ou excluir um pedido de compra.
+
+![Wireframe Pedidos de compra](images/wireframe-pedidoscompra.png)
+
+**Contas de Usuários**
+
+Permite visualizar, cadastrar, atualizar e excluir contas de usuários.
+
+![Wireframe Contas de usuário](images/wireframe-contasdeusuario.png)
+
+As oito telas acima estão documentadas no projeto de interfaces desenvolvido pelo grupo.
 
 ### User Flow
 
