@@ -176,6 +176,7 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 A partir das personas definidas pelo grupo, foram criadas algumas histórias de usuário para mostrar as principais necessidades de cada perfil dentro do sistema.
 
 **Eu como...              	          Quero/preciso...	                                             Para...**
+
 Gestor de Almoxarifado | Receber alertas sobre lotes que estão a 30, 15 e 7 dias do vencimento | Conseguir priorizar o uso desses produtos antes que vençam
 
 Operador de Estoque | Que o sistema indique qual lote e qual prateleira devem ser utilizados primeiro |	Aplicar o FEFO sem precisar conferir produto por produto
