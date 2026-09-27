@@ -369,13 +369,11 @@ O fluxo de navegação entre as telas foi definido no projeto de interfaces dese
 
 ### Protótipo Interativo
 
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
+O protótipo interativo foi feito no Figma e mostra como o usuário pode navegar pelas telas do sistema.
 
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
+✅ [Protótipo Interativo (Figma)](https://www.figma.com/proto/f4xA2NUtT77iaCeQvvknOk/Prot%C3%B3tipo-interativo?node-id=0-1&t=fbgzUjNb9SWk3BOG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&fuid=1594777649466445839)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
+O protótipo foi feito para apresentar o fluxo de navegação definido pelo grupo e mostrar como o usuário pode acessar as telas do sistema e voltar para a tela inicial.
 
 # Metodologia
 
@@ -383,19 +381,13 @@ Detalhes sobre a organização do grupo e o ferramental empregado.
 
 ## Ferramentas
 
-Relação de ferramentas empregadas pelo grupo durante o projeto.
+Repositório | GitHub | [Link Repositório (GitHub)](https://github.com/ICEI-PUC-Minas-PBR-ADS/TIAW-EstoqueCerto)
 
-| Ambiente                    | Plataforma | Link de acesso                                     |
-| --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-|                             |            |                                                    |
+Wireframes | Excalidraw
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
+Protótipo interativo | Figma | [Link Protótipo interativo (Figma)](https://www.figma.com/proto/f4xA2NUtT77iaCeQvvknOk/Prot%C3%B3tipo-interativo?node-id=0-1&t=fbgzUjNb9SWk3BOG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&fuid=1594777649466445839)
+
+Comunicação | Whatsapp e Discord
 
 ## Gerenciamento do Projeto
 
