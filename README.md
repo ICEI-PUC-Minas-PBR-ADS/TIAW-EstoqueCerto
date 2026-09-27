@@ -391,23 +391,23 @@ Comunicação | Whatsapp e Discord
 
 ## Gerenciamento do Projeto
 
-Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
+O desenvolvimento do projeto foi dividido em algumas partes. Primeiro, trabalhamos na identificação e entendimento do problema. Depois foram definidas as personas, histórias de usuário e a proposta de valor. Em seguida, foram desenvolvidos os protótipos e organizada a apresentação do projeto.
 
-![Exemplo de Kanban](images/exemplo-kanban.png)
+As tarefas foram divididas de acordo com cada parte do projeto, procurando aproveitar a disponibilidade e conhecimento de cada um com as atividades.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
->
-> **Orientações**:
->
-> - [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-> - [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-> - [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+**Divisão das responsabilidades**
+
+* Problema e pesquisa: levantamento das informações sobre o problema do projeto.
+* Personas e histórias de usuário: definição dos perfis dos usuários e suas principais necessidades.
+* Protótipo e Figma: criação das telas e do protótipo.
+* Proposta de valor: definição dos principais benefícios que o sistema pode trazer.
+* Movimentações de estoque: desenvolvimento das entradas e saídas de produtos.
+* Pedidos de compra: desenvolvimento das funcionalidades dos pedidos e reposição de produtos.
+* Perdas e descartes: desenvolvimento da parte de registro e acompanhamento das perdas.
+
+Além disso, o planejamento da Sprint também dividiu as responsabilidades de implementação entre as partes de produtos, lotes, fornecedores, movimentações, pedidos de compra e perdas/descartes. 
+
+![Quadro Kanban](images/kanban.png)
 
 # Solução Implementada
 
