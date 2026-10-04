@@ -1,0 +1,61 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Arroz",
+      "categoria": "Alimentos"
+    },
+    {
+      "id": 2,
+      "nome": "Feijão",
+      "categoria": "Alimentos"
+    },
+    {
+      "id": 3,
+      "nome": "Macarrão",
+      "categoria": "Alimentos"
+    }
+  ],
+
+  "fornecedores": [
+    {
+      "id": 1,
+      "nome": "Distribuidora BH",
+      "telefone": "(31) 99999-9999",
+      "email": "contato@empresa.com"
+    },
+    {
+      "id": 2,
+      "nome": "Alimentos MG",
+      "telefone": "(31) 98888-8888",
+      "email": "vendas@alimentomg.com"
+    }
+  ],
+
+  "pedidosCompra": [
+    {
+      "id": 1,
+      "fornecedorId": 1,
+      "data": "2026-04-15",
+      "produtoId": 1,
+      "quantidade": 20,
+      "status": "Pendente"
+    },
+    {
+      "id": 2,
+      "fornecedorId": 2,
+      "data": "2026-04-16",
+      "produtoId": 2,
+      "quantidade": 10,
+      "status": "Recebido"
+    },
+    {
+      "id": 3,
+      "fornecedorId": 1,
+      "data": "2026-04-17",
+      "produtoId": 3,
+      "quantidade": 15,
+      "status": "Pendente"
+    }
+  ]
+}
