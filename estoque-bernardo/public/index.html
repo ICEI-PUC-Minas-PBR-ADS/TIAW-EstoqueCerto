@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Estoque</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+   
+    <section id="login" class="tela-login">
+
+        <div class="login">
+
+            <div class="icone">
+                📦
+            </div>
+
+            <h1>Sistema de Estoque</h1>
+
+            <p>Faça login para continuar</p>
+
+            <label>E-mail</label>
+            <input
+                type="email"
+                placeholder="admin@gmail.com"
+            >
+
+            <label>Senha</label>
+            <input
+                type="password"
+                placeholder="Digite sua senha"
+            >
+
+            <a href="#inicio" class="botao-entrar">
+                Entrar
+            </a>
+
+        </div>
+
+    </section>
+
+
+  
+    <div class="sistema">
+
+      
+        <aside class="menu">
+
+            <h2>📦 Estoque</h2>
+
+            <a href="#inicio">
+                🏠 Início
+            </a>
+
+            <a href="#lotes">
+                📦 Lotes
+            </a>
+
+            <a href="movimentacoes.html">
+                ⇄ Movimentações
+            </a>
+
+            <a href="#login" class="sair">
+                🚪 Sair
+            </a>
+
+        </aside>
+
+
+      
+        <main class="conteudo">
+
+
+        
+            <section id="inicio" class="pagina">
+
+                <h1>Bem-vindo ao Sistema de Estoque</h1>
+
+                <p class="subtitulo">
+                    Controle de lotes cadastrados.
+                </p>
+
+                <div class="cards">
+
+                    <div class="card">
+
+                        <h3>📦 Lotes</h3>
+
+                        <strong>3</strong>
+
+                        <p>cadastrados</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+           
+            <section id="lotes" class="pagina">
+
+                <h1>Gerenciamento de Lotes</h1>
+
+                <p class="subtitulo">
+                    Cadastro e visualização dos lotes.
+                </p>
+
+
+                <div class="area">
+
+
+                  
+                    <div class="formulario">
+
+                        <h2>Dados do Lote</h2>
+
+
+                        <label>ID do Lote</label>
+
+                        <input
+                            id="idLote"
+                            type="text"
+                            placeholder="Ex: L001"
+                        >
+
+
+                        <label>Produto</label>
+
+                        <input
+                            id="produto"
+                            type="text"
+                            placeholder="Ex: Arroz"
+                        >
+
+
+                        <label>Quantidade</label>
+
+                        <input
+                            id="quantidade"
+                            type="number"
+                            placeholder="Ex: 50"
+                        >
+
+
+                        <label>Validade</label>
+
+                        <input
+                            id="validade"
+                            type="date"
+                        >
+
+
+                        <div class="botoes">
+
+                            <button
+                                class="cadastrar"
+                                onclick="cadastrar()"
+                            >
+                                Cadastrar
+                            </button>
+
+
+                            <button
+                                class="atualizar"
+                                onclick="atualizar()"
+                            >
+                                Atualizar
+                            </button>
+
+
+                            <button
+                                class="excluir"
+                                onclick="excluir()"
+                            >
+                                Excluir
+                            </button>
+
+
+                            <button
+                                onclick="limpar()"
+                            >
+                                Limpar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                 
+                    <div class="lista">
+
+                        <h2>Lotes Cadastrados</h2>
+
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Produto</th>
+                                    <th>Quantidade</th>
+                                    <th>Validade</th>
+                                    <th>Ação</th>
+                                </tr>
+
+                            </thead>
+
+
+                         
+                            <tbody id="tabelaLotes">
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

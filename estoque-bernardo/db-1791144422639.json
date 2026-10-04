@@ -1,0 +1,72 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Farinha de Trigo 1kg"
+    },
+    {
+      "id": 2,
+      "nome": "Arroz Branco 5kg"
+    },
+    {
+      "id": 3,
+      "nome": "Açúcar Cristal 1kg"
+    }
+  ],
+  "lotes": [
+    {
+      "id": "LOTE-9982",
+      "produto_id": 1
+    },
+    {
+      "id": "LOTE-9983",
+      "produto_id": 1
+    },
+    {
+      "id": "LOTE-2040",
+      "produto_id": 2
+    },
+    {
+      "id": "LOTE-3050",
+      "produto_id": 3
+    }
+  ],
+  "movimentacoes": [
+    {
+      "id": 1,
+      "produto_id": 1,
+      "produto": "Farinha de Trigo 1kg",
+      "tipo_movimentacao": "Entrada",
+      "quantidade": 50,
+      "lote": "LOTE-9982",
+      "data_movimentacao": "2026-09-19"
+    },
+    {
+      "id": 2,
+      "produto_id": 2,
+      "produto": "Arroz Branco 5kg",
+      "tipo_movimentacao": "Entrada",
+      "quantidade": 30,
+      "lote": "LOTE-2040",
+      "data_movimentacao": "2026-09-20"
+    },
+    {
+      "id": 3,
+      "produto_id": 1,
+      "produto": "Farinha de Trigo 1kg",
+      "tipo_movimentacao": "Saída",
+      "quantidade": 10,
+      "lote": "LOTE-9982",
+      "data_movimentacao": "2026-09-21"
+    },
+    {
+      "id": 4,
+      "produto_id": 3,
+      "produto": "Açúcar Cristal 1kg",
+      "tipo_movimentacao": "Entrada",
+      "quantidade": 40,
+      "lote": "LOTE-3050",
+      "data_movimentacao": "2026-09-22"
+    }
+  ]
+}
