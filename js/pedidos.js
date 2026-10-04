@@ -75,7 +75,7 @@ function mostrarPedidos(lista = pedidos) {
         </td>
 
         <td>
-         <a href="alterar-pedidos.html?id=${pedido.id}" class="botao-alterar">Alterar</a>
+         <a href="alterar-pedido.html?id=${pedido.id}" class="botao-alterar">Alterar</a>
          <button class="botao-excluir" onclick="excluirPedido(${pedido.id})">Excluir</button>
         </td>
       </tr>
@@ -165,7 +165,7 @@ if (!id) {
 }
 
 const pedido = pedidos.find(function(item) {
-  return item.id === id;
+  return item.id == id;
 });
 
 if (!pedido) {
@@ -221,7 +221,26 @@ async function excluirPedido(id) {
   });
 
   alert("Pedido excluído com sucesso!");
-  carregarDados();
+  window.location.href = "pedidos.html";
+}
+
+async function excluirPedidoAlteracao() {
+  const id = pegarId();
+  if (!id) {
+    return;
+  }
+
+  const confirmar = confirm("Tem certeza que deseja excluir este pedido?");
+  if (!confirmar) {
+    return;
+  }
+
+  await fetch(API + "/pedidosCompra/" + id, {
+    method: "DELETE"
+  });
+
+  alert("Pedido excluído com sucesso!");
+  window.location.href = "pedidos.html";
 }
 
 function pesquisarPedidos() {
@@ -265,4 +284,4 @@ if (formAlterar) {
   formAlterar.addEventListener("submit", alterarPedido);
 }
 
-carregarDados();
+carregarPedidos();
