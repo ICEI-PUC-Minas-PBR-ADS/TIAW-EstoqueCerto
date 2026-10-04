@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstoqueCerto - Dashboard</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1>EstoqueCerto</h1>
+  </header>
+
+  <div class="layout">
+
+    <!-- menu lateral -->
+    <aside class="menu">
+      <ul>
+        <li><a href="#" class="ativo"><img src="icon/dashboard.png" alt="">Dashboard</a></li>
+        <li><a href="#"><img src="icon/produtos.png" alt="">Produtos</a></li>
+        <li><a href="#"><img src="icon/fornecedores.png" alt="">Fornecedores</a></li>
+        <li><a href="#"><img src="icon/movimentação.png" alt="">Movimentações</a></li>
+        <li><a href="#"><img src="icon/pedidos.png" alt="">Pedidos de compra</a></li>
+        <li><a href="#"><img src="icon/lotes.png" alt="">Lotes</a></li>
+        <li><a href="#"><img src="icon/usuarios.png" alt="">Contas de usuários</a></li>
+        <li><a href="#planos"><img src="icon/planos.png" alt="">Planos</a></li>
+      </ul>
+      <a href="#" class="sair"><img src="icon/sair.png" alt="">Sair</a>
+    </aside>
+
+    <!-- conteúdo -->
+    <main class="conteudo">
+
+      <h2 class="titulo">Bem-vindo ao EstoqueCerto</h2>
+      <p class="subtitulo">Aqui está um resumo do sistema.</p>
+
+      <!-- alerta de vencimento -->
+      <div class="alerta">
+        <img src="icon/atencao.png" alt="">
+        <p>
+          <strong>Atenção aos vencimentos!</strong><br>
+          <span id="listaVencimento"></span>. Se ainda estiverem bons, considere doar.
+        </p>
+      </div>
+
+      <!-- cards de resumo -->
+      <section class="cards">
+        <div class="card">
+          <span class="numero">15</span>
+          <strong>Lotes</strong>
+          <small>lotes cadastrados</small>
+        </div>
+        <div class="card">
+          <span class="numero">32</span>
+          <strong>Produtos</strong>
+          <small>produtos cadastrados</small>
+        </div>
+        <div class="card">
+          <span class="numero">8</span>
+          <strong>Fornecedores</strong>
+          <small>fornecedores cadastrados</small>
+        </div>
+        <div class="card">
+          <span class="numero">5</span>
+          <strong>Pedidos (mês)</strong>
+          <small>pedidos realizados</small>
+        </div>
+        <div class="card">
+          <span class="numero">27</span>
+          <strong>Movimentações</strong>
+          <small>registros este mês</small>
+        </div>
+      </section>
+
+      <!-- consumo consciente -->
+      <section class="consumo">
+        <div>
+          <h3><img src="img/folha.png" alt="">Consumo consciente</h3>
+          <p>Meta de doações do mês: <strong id="textoDoacao"></strong></p>
+          <div class="barra"><div id="barraDoacao"></div></div>
+          <p>Cada doação conta. Vamos juntos?</p>
+        </div>
+
+        <div class="dica">
+          <strong>Dica do dia</strong>
+          <p id="textoDica"></p>
+          <button onclick="outraDica()">Ver outra dica</button>
+        </div>
+      </section>
+
+      <!-- planos -->
+      <div class="cabecalho-planos">
+        <h3 id="planos">Nossos planos</h3>
+        <p id="mensagemPlano"></p>
+        <select id="periodo" onchange="trocarPeriodo()">
+          <option value="mensal">Mensal</option>
+          <option value="anual">Anual (-20%)</option>
+        </select>
+      </div>
+
+      <section class="planos">
+        <div class="plano">
+          <h4>Básico</h4>
+          <p class="preco">R$ <span id="preco1">29</span>/mês</p>
+          <ul>
+            <li>✓ Até 100 produtos</li>
+            <li>✓ 2 usuários</li>
+            <li>✕ Alerta de vencimento</li>
+          </ul>
+          <button onclick="escolher('Básico')">Escolher plano</button>
+        </div>
+
+        <div class="plano destaque">
+          <h4>Profissional</h4>
+          <p class="preco">R$ <span id="preco2">79</span>/mês</p>
+          <ul>
+            <li>✓ Até 1.000 produtos</li>
+            <li>✓ 5 usuários</li>
+            <li>✓ Alerta de vencimento</li>
+          </ul>
+          <button onclick="escolher('Profissional')">Escolher plano</button>
+        </div>
+
+        <div class="plano">
+          <h4>Empresarial</h4>
+          <p class="preco">R$ <span id="preco3">149</span>/mês</p>
+          <ul>
+            <li>✓ Produtos e usuários ilimitados</li>
+            <li>✓ Relatório de doações</li>
+            <li>✓ Suporte prioritário</li>
+          </ul>
+          <button onclick="escolher('Empresarial')">Escolher plano</button>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
