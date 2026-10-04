@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstoqueCerto - Pedidos de Compra</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="topo">
+      EstoqueCerto
+    </header>
+
+    <div class="container">
+      <aside class="menu">
+        <h3>EstoqueCerto</h3>
+        <a href="pedidos.html" class="ativo">Pedidos de Compra</a>
+      </aside>
+
+      <main class="conteudo">
+        <div class="titulo-pagina">
+          <div>
+            <h1>Pedidos de Compra</h1>
+
+            <p>Gerenciamento dos pedidos de compra</p>
+          </div>
+
+          <a href="novo-pedido.html" class="botao">+ Novo Pedido</a>
+        </div>
+
+        <div class="pesquisa">
+          <label for="pesquisa">Pesquisar:</label>
+          <input type="text" id="pesquisa" placeholder="Digite o fornecedor ou produto..." onkeyup="pesquisarPedidos()">
+        </div>
+
+        <div class="card">
+          <h2>Pesquisar Cadastrados</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Fornecedor</th>
+                <th>Data</th>
+                <th>Produto</th>
+                <th>Qtd.</th>
+                <th>Status</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+
+            <tbody id="tabelaPedidos">
+
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  
+    <script src="js/pedidos.js"></script>
+</body>
+</html>
