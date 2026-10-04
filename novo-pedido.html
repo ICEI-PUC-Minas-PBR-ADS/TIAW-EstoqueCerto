@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstoqueCerto - Novo Pedido</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">EstoqueCerto</header>
+
+  <div class="container">
+    <aside class="menu">
+      <h3>EstoqueCerto</h3>
+
+      <a href="pedidos.html">Pedidos de Compra</a>
+    </aside>
+
+    <main class="conteudo">
+      <div class="card formulario">
+        <h1>Novo Pedido de Compra</h1>
+
+        <form id="formNovoPedido">
+          <label for="fornecedor">Fornecedor</label>
+          <select id="fornecedor" required>
+            <option value="">Selecione um fornecedor</option>
+          </select>
+
+          <label for="data">Data</label>
+          <input type="date" id="data" required>
+
+          <label for="produto">Produto</label>
+          <select id="produto" required>
+          <option value="">Selecione um produto</option>
+          </select>
+
+          <label for="quantidade">Quantidade</label>
+          <input type="number" id="quantidade" min="1" required>
+
+
+          <label for="status">Status</label>
+          <select id="status">
+            <option value="Pendente">Pendente</option>
+            <option value="Recebido">Recebido</option>
+          </select>
+          
+          <div class="botoes">
+            <a href="pedidos.html" class="botao-cancelar">Cancelar</a>
+
+            <button type="submit" class="botao">Salvar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+  
+  <script src="js/novo-pedido.js"></script>
+</body>
+</html>
