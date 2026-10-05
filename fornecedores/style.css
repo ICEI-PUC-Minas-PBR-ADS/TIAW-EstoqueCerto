@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #171717;
+
+    background-color: white;
+
+}
+
+.topo {
+
+    height: 100px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 38px;
+    
+    color: white;
+
+    background-color : #006ba6;
+
+}
+
+.layout {
+
+    display: grid;
+
+    grid-template-columns: 275px 1fr;
+
+    gap: 10px;
+
+
+    min-height: calc(100vh - 120px);
+
+}
+
+.sidebar {
+    background-color:rgb(230, 230, 234);
+    
+    padding: 30px 16px 22px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.sidebar nav {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+}
+
+
+.sidebar a {
+
+    color: #111;
+
+    text-decoration: none;
+
+    font-size: 21px;
+
+    padding: 13px 18px;
+
+    border-radius: 13px;
+
+}
+
+
+.sidebar a:hover {
+
+    background-color: #d4d2d2;
+
+}
+
+
+.sidebar .ativo {
+
+    border: 2px solid #222;
+
+    background-color: #f3f3f3;
+
+}
+
+
+.sair {
+
+    margin-top: auto;
+
+}
+
+.conteudo {
+
+    border-radius: 18px;
+
+    padding: 30px 38px 45px;
+
+    overflow-x: auto;
+
+}
+
+h1 {
+
+    margin: 0 0 36px;
+
+    text-align: center;
+
+    font-size: 32px;
+
+    font-weight: 500;
+
+}
+
+
+h2 {
+
+    margin: 30px 0 12px;
+
+    text-align: center;
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+}
+
+
+.linha-form {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1.15fr
+        1fr;
+
+    gap: 28px;
+
+}
+
+
+.campo {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.campo label {
+
+    margin-bottom: 8px;
+
+    font-size: 17px;
+
+}
+
+
+.campo input {
+
+    height: 51px;
+
+    padding: 0 12px;
+
+    border: 2px solid #333;
+
+    border-radius: 8px;
+
+    font-size: 17px;
+
+    outline: none;
+
+}
+
+
+.campo input:focus {
+
+    border-color: #111;
+
+}
+
+
+.email {
+
+    margin-top: 24px;
+
+}
+
+
+.email input {
+
+    width: 100%;
+
+}
+
+
+
+.botoes {
+
+    display: flex;
+
+    gap: 16px;
+
+    margin-top: 27px;
+
+}
+
+
+.btn-cadastrar{
+    color:#eeeeee;
+
+    min-width: 153px;
+
+    height: 51px;
+
+    padding: 0 25px;
+
+    border: 2px solid #efecec;
+
+    border-radius: 9px;
+
+    background-color: #057102;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+.btn-limpar{
+    color:#eeeeee;
+
+    min-width: 153px;
+
+    height: 51px;
+
+    padding: 0 25px;
+
+    border: 2px solid #efecec;
+
+    border-radius: 9px;
+
+    background-color: #cf0700;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+.btn-atualizar{
+    color:#eeeeee;
+
+    min-width: 153px;
+
+    height: 51px;
+
+    padding: 0 25px;
+
+    border: 2px solid #efecec;
+
+    border-radius: 9px;
+
+    background-color: #006ba6;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    background-color: #e9e9e9;
+
+}
+
+.mensagem {
+
+    min-height: 20px;
+
+    margin: 12px 0;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+.tabela-container {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+}
+
+
+table {
+
+    width: 100%;
+
+    min-width: 850px;
+
+    border-collapse: collapse;
+
+    font-size: 17px;
+
+}
+
+
+th,
+td {
+
+    border: 1px solid #aaa;
+
+    padding: 15px 13px;
+
+    text-align: left;
+
+}
+
+
+th {
+
+    background-color: #f1f1f1;
+
+    font-weight: 600;
+
+}
+
+
+td {
+
+    height: 68px;
+
+}
+
+.btn-alterar {
+
+    min-width: 154px;
+
+    height: 52px;
+
+    border: 2px solid #222;
+
+    border-radius: 9px;
+
+    background-color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+.btn-alterar:hover {
+
+    background-color: #eeeeee;
+
+}
+
+
+.carregando {
+
+    text-align: center;
+
+}
+
+@media (max-width: 1000px) {
+
+    .layout {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .sidebar {
+
+        min-height: auto;
+
+    }
+
+
+    .sidebar nav {
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+    .sair {
+
+        margin-top: 15px;
+
+    }
+
+
+    .linha-form {
+
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+
+    }
+
+
+    .email {
+
+        margin-top: 18px;
+
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .topo {
+
+        height: 80px;
+
+        font-size: 30px;
+
+    }
+
+
+    .conteudo {
+
+        padding: 25px 18px;
+
+    }
+
+
+    .sidebar nav {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .botoes {
+
+        flex-direction: column;
+
+    }
+
+
+    .btn {
+
+        width: 100%;
+
+    }
+
+}

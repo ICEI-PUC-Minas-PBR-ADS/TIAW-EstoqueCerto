@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        EstoqueCerto - Fornecedores
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topo">
+        EstoqueCerto
+    </header>
+    <div class="layout">
+        <aside class="sidebar">
+            <nav>
+                <a href="#">
+                    Dashboard
+                </a>
+                <a href="#">
+                    Produtos
+                </a>
+                <a
+                    href="#"
+                    class="ativo"
+                >
+                    Fornecedores
+                </a>
+                <a href="#">
+                    Movimentações
+                </a>
+                <a href="#">
+                    Pedidos de compra
+                </a>
+                <a href="#">
+                    Lotes
+                </a>
+                <a href="#">
+                    Contas de usuários
+                </a>
+            </nav>
+            <a
+                href="#"
+                class="sair"
+            >
+                Sair
+            </a>
+        </aside>
+        <main class="conteudo">
+            <h1>
+                FORNECEDORES
+            </h1>
+            <form id="formFornecedor">
+                <div class="linha-form">
+                    <div class="campo">
+                        <label for="id"> ID: </label>
+                        <input
+                            type="number"
+                            id="id"
+                            min="1"
+                            required>
+                    </div>
+                    <div class="campo">
+
+                        <label for="nome"> Nome: </label>
+                        <input
+                            type="text"
+                            id="nome"
+                            required
+                        >
+
+                    </div>
+                    <div class="campo">
+                        <label for="telefone"> Telefone: </label>
+                        <input
+                            type="text"
+                            id="telefone"
+                            placeholder="(31) 99999-9999"
+                            required
+                        >
+                    </div>
+                </div>
+                <div class="campo email">
+                    <label for="email"> E-mail:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        required
+                    >
+                </div>
+                <div class="botoes">
+                    <button
+                        type="submit"
+                        class="btn-cadastrar">
+                        CADASTRAR
+                    </button>
+
+
+                    <button
+                        type="button"
+                        id="btnAtualizar"
+                        class="btn-atualizar">
+                        ATUALIZAR
+                    </button>
+                    <button
+                        type="button"
+                        id="btnLimpar"
+                        class="btn-limpar"
+                    >
+                        LIMPAR
+                    </button>
+                </div>
+            </form>
+            <p
+                id="mensagem"
+                class="mensagem"
+            ></p>
+            <h2>
+                FORNECEDORES CADASTRADOS
+            </h2>
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                ID
+                            </th>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Telefone
+                            </th>
+                            <th>
+                                E-mail
+                            </th>
+                            <th>
+                                Ações
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaFornecedores">
+                        <tr>
+                            <td
+                                colspan="5"
+                                class="carregando"
+                            >
+                                Carregando...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
